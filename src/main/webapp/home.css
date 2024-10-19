@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.card {
+    display: inline-block;
+    width: 18rem;
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+/* Optional: Adjust the width of the container to fit the cards */
+.card-container {
+    max-width: 100%;
+    overflow-x: auto; /* Add horizontal scroll if the cards exceed the container width */
+    white-space: nowrap; /* Prevent cards from wrapping to the next line */
+}
+
